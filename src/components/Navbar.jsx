@@ -9,9 +9,9 @@ export default function Navbar() {
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/general">General</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/science">Science</Link>
         </li>
