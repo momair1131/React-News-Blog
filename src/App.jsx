@@ -19,7 +19,7 @@ function App() {
           <Route path="/science" element={<FetchData cat="science" />} />
           <Route path="/sports" element={<FetchData cat="sports" />} />
           <Route path="/technology" element={<FetchData cat="technology" />} />
-          <Route path="/showdata/:news" element={<ShowData />} />
+          <Route path="/showdata/:index" element={<ShowData />} />
         </Routes>
       </Router>
       <Footer />
