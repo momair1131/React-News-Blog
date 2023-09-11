@@ -1,5 +1,5 @@
 .Footer {
-  width: 100%;
+  /* width: 100%;
   height: 50px;
   background-color: black;
   color: white;
@@ -10,11 +10,139 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 0;
-}
+  bottom: 0; */
 
+  /* background-color: #3f3939;
+  color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px; */
+}
+/* 
 .Footer p span:hover {
   color: antiquewhite;
   font-size: 1.1rem;
   transition: all 0.1s ease-in-out;
+} */
+
+/* Footer.css */
+
+/* Footer.css */
+
+.Footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-logo h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.footer-links,
+.footer-social,
+.footer-subscribe {
+  flex: 1;
+  margin: 20px 0;
+}
+
+.footer-links h3,
+.footer-social h3,
+.footer-subscribe h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li,
+.footer-social li {
+  margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-social a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #00bcd4;
+}
+
+.footer-subscribe p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.footer-subscribe form {
+  display: flex;
+}
+
+.footer-subscribe input[type="email"] {
+  padding: 10px;
+  flex: 2;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-subscribe button {
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  margin-left: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.footer-subscribe button:hover {
+  background-color: #0097a7;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 20px 0;
+  /* text-align: center; */
+  display: flex;
+  position: relative;
+  top: 40px;
+  width: 100%;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
 }
