@@ -4,9 +4,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import FetchData from "./components/FetchData/FetchData";
-
 import Footer from "./components/Footer/Footer";
-import ShowData from "./pages/ShowData";
 
 function App() {
   return (
@@ -19,7 +17,6 @@ function App() {
           <Route path="/science" element={<FetchData cat="science" />} />
           <Route path="/sports" element={<FetchData cat="sports" />} />
           <Route path="/technology" element={<FetchData cat="technology" />} />
-          <Route path="/showdata/:index" element={<ShowData />} />
         </Routes>
       </Router>
       <Footer />

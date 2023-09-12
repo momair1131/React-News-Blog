@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import "./FetchData.css";
-import axios from "axios";
-import { Link } from "react-router-dom";
 
 export default function FetchData({ cat }) {
   const [data, setData] = useState([]);
@@ -10,7 +8,7 @@ export default function FetchData({ cat }) {
   const url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
   const cURL = `https://newsapi.org/v2/top-headlines?country=us&category=${cat}&apiKey=${apiKey}`;
 
-  console.log(data);
+  // console.log(data);
 
   const getData = async () => {
     const response = await fetch(cat ? cURL : url);
@@ -43,13 +41,7 @@ export default function FetchData({ cat }) {
                   {/* {article} */}
                   <img src={article.urlToImage} alt="image not available" className="newsImg" />
                   <div className="contentText">
-                    <h5>
-                      {/* {article.title} */}
-                      {article.title.split("-")[0]}
-
-                      {/* {console.log(JSON.stringify(d))}
-                   {/* <Link to={`/ShowData/${index}`}>{article.title}</Link> */}
-                    </h5>
+                    <h5>{article.title.split("-")[0]}</h5>
                     <p className="articleDescrition  ">{article.description}</p>
                     <p className="articleAuther ArtContents">BY {article.author}</p>
                     <p className="articleSource ArtContents">
