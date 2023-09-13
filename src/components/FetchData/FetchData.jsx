@@ -9,6 +9,7 @@ export default function FetchData({ cat }) {
   const cURL = `https://newsapi.org/v2/top-headlines?country=us&category=${cat}&apiKey=${apiKey}`;
 
   // console.log(data);
+  // console.log(process.env);
 
   const getData = async () => {
     const response = await fetch(cat ? cURL : url);
@@ -61,7 +62,12 @@ export default function FetchData({ cat }) {
   const loading = () => {
     return (
       <h1 className="LoadingContents">
-        <img src="../../../public/Loading.gif" />
+        {/* React-News-Blog\public\Loading.gif */}
+
+        <img src="/React-News-Blog/dist/Loading.gif" />
+        {/* <img src="/React-News-Blog/public/Loading.gif" /> */}
+        {/* <img src="../../../public/Loading.gif" /> */}
+        {/* <img src="./dis/Loading.gif" /> */}
       </h1>
     );
   };

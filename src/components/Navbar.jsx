@@ -5,21 +5,21 @@ export default function Navbar() {
   return (
     <div className="Navbar">
       <h1>
-        <Link to="/">MyNews</Link>
+        <Link to="/React-News-Blog/">MyNews</Link>
       </h1>
 
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/React-News-Blog/">Home</Link>
         </li>
         <li>
-          <Link to="/science">Science</Link>
+          <Link to="/React-News-Blog/science">Science</Link>
         </li>
         <li>
-          <Link to="sports">Sports</Link>
+          <Link to="/React-News-Blog/sports">Sports</Link>
         </li>
         <li>
-          <Link to="/technology">Technology</Link>
+          <Link to="/React-News-Blog/technology">Technology</Link>
         </li>
       </ul>
     </div>

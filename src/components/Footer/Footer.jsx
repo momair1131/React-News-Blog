@@ -6,20 +6,22 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <h2>MyNews</h2>
+            <h2>
+              <a href="/React-News-Blog/">MyNews</a>
+            </h2>
             <p>Your source for the latest news</p>
           </div>
           <div className="footer-links">
             <h3>Quick Links</h3>
             <ul>
               <li>
-                <a href="/science">Science</a>
+                <a href="/React-News-Blog/science">Science</a>
               </li>
               <li>
-                <a href="/sports">Sports</a>
+                <a href="/React-News-Blog/sports">Sports</a>
               </li>
               <li>
-                <a href="/technology">Technology</a>
+                <a href="/React-News-Blog/technology">Technology</a>
               </li>
             </ul>
           </div>
