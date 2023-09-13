@@ -27,6 +27,8 @@ You can visit the app at:
 ```bash
 localhost:5173
 ```
+You can visit the App at: 
+https://momair1131.github.io/React-News-Blog/
 
 ## Description
 
