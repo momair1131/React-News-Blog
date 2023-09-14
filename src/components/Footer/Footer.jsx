@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 export default function Footer() {
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-logo">
             <h2>
-              <a href="/React-News-Blog/">MyNews</a>
+              <Link to="/React-News-Blog/">MyNews</Link>
             </h2>
             <p>Your source for the latest news</p>
           </div>
@@ -15,13 +16,13 @@ export default function Footer() {
             <h3>Quick Links</h3>
             <ul>
               <li>
-                <a href="/React-News-Blog/science">Science</a>
+                <Link to="/React-News-Blog/science">Science</Link>
               </li>
               <li>
-                <a href="/React-News-Blog/sports">Sports</a>
+                <Link to="/React-News-Blog/sports">Sports</Link>
               </li>
               <li>
-                <a href="/React-News-Blog/technology">Technology</a>
+                <Link to="/React-News-Blog/technology">Technology</Link>
               </li>
             </ul>
           </div>

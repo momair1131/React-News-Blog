@@ -139,7 +139,7 @@ export default function FetchData({ cat }) {
   const loading = () => {
     return (
       <h1 className="LoadingContents">
-        <img src="./public/Loading.gif" alt="Loading..." />
+        <img src="./Loading.gif" alt="Loading..." />
       </h1>
     );
   };
